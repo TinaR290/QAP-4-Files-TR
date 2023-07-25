@@ -180,7 +180,7 @@ while True:
     print("Payment frequency:               ",PmtFreq)
     CurrDate = datetime.date.today()
     print("Payment due date:                ",PmtDate)
-        if PmtTerms == PMT_FREQ[1]:
+    if PmtTerms == PMT_FREQ[1]:
         MthProcFeeDsp = FV.FDollar2(MTH_PROC_FEE)
         print(f"Payment Processing Fee:                        {MthProcFeeDsp:>10s}")
     PaymentDsp = FV.FDollar2(Payment)
